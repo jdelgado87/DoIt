@@ -13,6 +13,7 @@
 		29D8F8241E29D5CC00131595 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29D8F8221E29D5CC00131595 /* DoIt.xcdatamodeld */; };
 		29D8F8261E29D5CC00131595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D8F8251E29D5CC00131595 /* Assets.xcassets */; };
 		29D8F8291E29D5CC00131595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D8F8271E29D5CC00131595 /* LaunchScreen.storyboard */; };
+		29D8F8311E29DBC900131595 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8F8301E29DBC900131595 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		29D8F8251E29D5CC00131595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29D8F8281E29D5CC00131595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29D8F82A1E29D5CC00131595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D8F8301E29DBC900131595 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				29D8F81B1E29D5CC00131595 /* AppDelegate.swift */,
 				29D8F81D1E29D5CC00131595 /* ViewController.swift */,
+				29D8F8301E29DBC900131595 /* Task.swift */,
 				29D8F81F1E29D5CC00131595 /* Main.storyboard */,
 				29D8F8251E29D5CC00131595 /* Assets.xcassets */,
 				29D8F8271E29D5CC00131595 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D8F8311E29DBC900131595 /* Task.swift in Sources */,
 				29D8F8241E29D5CC00131595 /* DoIt.xcdatamodeld in Sources */,
 				29D8F81E1E29D5CC00131595 /* ViewController.swift in Sources */,
 				29D8F81C1E29D5CC00131595 /* AppDelegate.swift in Sources */,
